@@ -6,12 +6,16 @@ plugins:
 
 title: "Tudorita Zaharia"       # Display Name on Profile
 description: "MSc. Artificial Intelligence in Medicine, University of Bern" # A short description of yourself
+sub_description:
+  heading: "Master Thesis"
+  content: "I am currently implementing event-based models for subtype and stage predictions for Amyotrophic Lateral Sclerosis"
+
+
+email: "zaharia.tudorita@yahoo.com"
+
 url: "https://tudorita.github.io" # Your website URL
 baseurl: ""
 
 profile_header:
   background_color: "#000000"  # Background color
   profile_picture: "https://github.com/account"  # Profile image URL
-
-author:
-  email: "zaharia.tudorita@yahoo.com"
