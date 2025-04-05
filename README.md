@@ -1,12 +1,12 @@
 # My Projects
 
-## Project 1: [Project Name](https://github.com/your-username/project1)
+## Project 1: [Bladder Cancer Proteomics](https://github.com/your-username/project1)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://via.placeholder.com/150" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
-    <h4>Description</h4>
-    <p>This project is about [brief description of your project]. It's built with [technologies used]. Feel free to explore the code and contribute to the project!</p>
-    <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
+    <h4>Subpopulation and Feature Detection</h4>
+    <p>Given a clinical dataset with bladder cancer patients, we identify 7 subpopulations. We infer from proteomics and metadata, the most informative features.</p>
+    <a href="https://github.com/tudi72/Bladder_Subpopulation_Detection" target="_blank">View on GitHub</a>
   </div>
 </div>
 

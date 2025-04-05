@@ -11,5 +11,5 @@ baseurl: "" # Leave empty if using GitHub Pages
 
 profile_header:
   background_color: "#000000"  # Background color
-  profile_picture: "https://avatars.githubusercontent.com/u/33194623?v=4"  # Profile image URL
+  profile_picture: "https://github.com/account"  # Profile image URL
 
