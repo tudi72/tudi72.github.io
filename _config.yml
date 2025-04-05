@@ -13,3 +13,5 @@ profile_header:
   background_color: "#000000"  # Background color
   profile_picture: "https://github.com/account"  # Profile image URL
 
+author:
+  email: "zaharia.tudorita@example.com"
