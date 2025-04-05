@@ -1,6 +1,4 @@
-# My Projects
-
-## Project 1: [Bladder Cancer Proteomics](https://github.com/tudi72/Bladder_Subpopulation_Detection)
+## [Bladder Cancer Proteomics](https://github.com/tudi72/Bladder_Subpopulation_Detection)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="image-2.png" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
@@ -10,7 +8,7 @@
   </div>
 </div>
 
-## Project 2: [Medical Corpus NLP](https://github.com/tudi72/Medical_NER)
+## [Medical Corpus NLP](https://github.com/tudi72/Medical_NER)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="image-hih.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
@@ -22,7 +20,7 @@
 
 
 
-## Project 3: [Computer-Assisted Surgery Pipeline](https://github.com/tudi72/Computer_Assisted_Surgery)
+## [Computer-Assisted Surgery Pipeline](https://github.com/tudi72/Computer_Assisted_Surgery)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="disk.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
@@ -33,7 +31,7 @@
 </div>
 
 
-## Project 4: [Mini NERF](https://github.com/tudi72/2023_MINI_NERF)
+## [Mini NERF](https://github.com/tudi72/2023_MINI_NERF)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="image-heh.png" alt="Project 2" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
