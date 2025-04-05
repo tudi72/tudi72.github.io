@@ -2,7 +2,7 @@
 
 ## Project 1: [Bladder Cancer Proteomics](https://github.com/your-username/project1)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="https://via.placeholder.com/150" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <img src="image-2.png" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h4>Subpopulation and Feature Detection</h4>
     <p>Given a clinical dataset with bladder cancer patients, we identify 7 subpopulations. We infer from proteomics and metadata, the most informative features.</p>
@@ -12,7 +12,7 @@
 
 ## Project 2: [Mini NERF](https://github.com/your-username/project2)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="" alt="Project 2" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <img src="image.png" alt="Project 2" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h4>Bulldozer Neural Radial Field</h4>
     <p>Based on NERF paper, we reconstruct the point cloud from views of complex scenes using 5D coordinates. </p>
