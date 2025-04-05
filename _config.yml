@@ -7,11 +7,11 @@ plugins:
 title: "Tudorita Zaharia"       # Display Name on Profile
 description: "MSc. Artificial Intelligence in Medicine, University of Bern" # A short description of yourself
 url: "https://tudorita.github.io" # Your website URL
-baseurl: "" # Leave empty if using GitHub Pages
+baseurl: ""
 
 profile_header:
   background_color: "#000000"  # Background color
   profile_picture: "https://github.com/account"  # Profile image URL
 
 author:
-  email: "zaharia.tudorita@example.com"
+  email: "zaharia.tudorita@yahoo.com"

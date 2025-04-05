@@ -1,6 +1,6 @@
 # My Projects
 
-## Project 1: [Bladder Cancer Proteomics](https://github.com/your-username/project1)
+## Project 1: [Bladder Cancer Proteomics](https://github.com/tudi72/Bladder_Subpopulation_Detection)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="image-2.png" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
@@ -10,22 +10,35 @@
   </div>
 </div>
 
-## Project 2: [Mini NERF](https://github.com/your-username/project2)
+## Project 2: [Medical Corpus NLP](https://github.com/tudi72/Medical_NER)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="image.png" alt="Project 2" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <img src="image-hih.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
-    <h4>Bulldozer Neural Radial Field</h4>
-    <p>Based on NERF paper, we reconstruct the point cloud from views of complex scenes using 5D coordinates. </p>
-    <a href="https://github.com/tudi72/2023_MINI_NERF" target="_blank">View on GitHub</a>
+    <h4>Named-Entity Recognition for Custom Labels </h4>
+    <p>Technologies used are Spacy, NLTK, BERT, GPT, Label-Studio, Wandb, HuggingFace.</p>
+    <a href="https://github.com/tudi72/Medical_NER" target="_blank">View on GitHub</a>
   </div>
 </div>
 
-## Project 3: [Computer-Assisted Surgery Pipeline](https://github.com/your-username/project3)
+
+
+## Project 3: [Computer-Assisted Surgery Pipeline](https://github.com/tudi72/Computer_Assisted_Surgery)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="disk.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h4>Preoperative Planning </h4>
     <p>We apply pivot calibration, Region-Growing segmentation with seed, Point Cloud Registration and U-NET segmentation deep learning for reference.</p>
     <a href="https://github.com/tudi72/Computer_Assisted_Surgery" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+
+## Project 4: [Mini NERF](https://github.com/tudi72/2023_MINI_NERF)
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="image-heh.png" alt="Project 2" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>Bulldozer Neural Radial Field</h4>
+    <p>Based on NERF paper, we reconstruct the point cloud from views of complex scenes using 5D coordinates. </p>
+    <a href="https://github.com/tudi72/2023_MINI_NERF" target="_blank">View on GitHub</a>
   </div>
 </div>
