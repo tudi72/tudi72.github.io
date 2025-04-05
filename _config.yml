@@ -8,7 +8,8 @@ title: "Tudorita Zaharia"       # Display Name on Profile
 description: "MSc. Artificial Intelligence in Medicine, University of Bern" # A short description of yourself
 url: "https://tudorita.github.io" # Your website URL
 baseurl: "" # Leave empty if using GitHub Pages
+
 profile_header:
   background_color: "#000000"  # Background color
-  profile_picture: "https://link-to-your-profile-picture.com"  # Profile image URL
+  profile_picture: "https://avatars.githubusercontent.com/u/33194623?v=4"  # Profile image URL
 
