@@ -22,10 +22,10 @@
 
 ## Project 3: [Computer-Assisted Surgery Pipeline](https://github.com/your-username/project3)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="https://via.placeholder.com/150" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <img src="disk.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h4>Preoperative Planning </h4>
     <p>We apply pivot calibration, Region-Growing segmentation with seed, Point Cloud Registration and U-NET segmentation deep learning for reference.</p>
-    <a href="https://github.com/your-username/project3" target="_blank">View on GitHub</a>
+    <a href="https://github.com/tudi72/Computer_Assisted_Surgery" target="_blank">View on GitHub</a>
   </div>
 </div>
