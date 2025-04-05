@@ -18,4 +18,4 @@ baseurl: ""
 
 profile_header:
   background_color: "#000000"  # Background color
-  profile_picture: "https://github.com/account"  # Profile image URL
+  profile_picture: "image.png"  # Profile image URL
