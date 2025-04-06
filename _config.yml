@@ -6,11 +6,11 @@ plugins:
 
 title: "Tudorita Zaharia"       # Display Name on Profile
 description: "MSc. Artificial Intelligence in Medicine, University of Bern. I am currently implementing event-based models for subtype and stage predictions for Amyotrophic Lateral Sclerosis " # A short description of yourself
-email: "zaharia.tudorita@yahoo.com"
+email: zaharia.tudorita@yahoo.com
 
 url: "https://tudorita.github.io" # Your website URL
 baseurl: ""
 
 profile_header:
   background_color: "#000000"  # Background color
-  profile_picture: "image.png"  # Profile image URL
+  # profile_picture: "image.png"  # Profile image URL
