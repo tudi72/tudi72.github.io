@@ -46,10 +46,8 @@
 
 - **[Mountain Car DQN](https://github.com/tudi72/RL_DQN_MountainCar)**
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <video width="150" height="150" style="object-fit: cover; margin-right: 20px;" controls>
-    <source src="resources/mountcar_random-episode-1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+ <img src="resources/cart_mount.gif" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  
   <div>
     <h4>Deep Q-Learning and REINFORCE</h4>
     <p>More description</p>
