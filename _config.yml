@@ -5,7 +5,8 @@ plugins:
 
 
 title: "Tudorita Zaharia"       # Display Name on Profile
-description: "MSc. Artificial Intelligence in Medicine, University of Bern. I am currently implementing event-based models for subtype and stage predictions for Amyotrophic Lateral Sclerosis " # A short description of yourself
+subtitle: "MSc. Artificial Intelligence in Medicine, University of Bern." # Subtitle (optional)
+description: "I am currently implementing event-based models for subtype and stage predictions for Amyotrophic Lateral Sclerosis. " # A short description of yourself
 email: zaharia.tudorita@yahoo.com
 
 url: "https://tudorita.github.io" # Your website URL
