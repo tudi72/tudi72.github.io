@@ -1,34 +1,16 @@
 
 remote_theme: pages-themes/minimal@v0.2.0
-
-# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 
-author: 
-  name        : "Tudorita Zaharia"       # Display Name on Profile
-  avatar      : "avatar.jpg"
-  bio         : "MSc. Artificial Intelligence in Medicine, University of Bern."
-  location    : "Bern, Switzerland"
-  email       : zaharia.tudorita@yahoo.com
-  github      : "tudi72"
-  linkedin    : "https://www.linkedin.com/in/tudorita-zaharia/"
 
-url: "https://tudorita.github.io" # Your website URL
-baseurl: ""
+title       : "Tudorita Zaharia"       # Display Name on Profile
+description : "MSc. Artificial Intelligence in Medicine, University of Bern. I am currently implementing event-based models for subtype and stage predictions for Amyotrophic Lateral Sclerosis. " # A short description of yourself
+email       : zaharia.tudorita@yahoo.com
+url         : "https://tudorita.github.io" # Your website URL
+baseurl     : ""
 
 profile_header:
-  background_color: "#000000"  # Background color
-  # profile_picture: "image.png"  # Profile image URL
+  background_color  : "#000000"  # Background color
+  profile_picture : "avatar.jpg"  # Profile image URL
