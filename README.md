@@ -1,3 +1,7 @@
+## About Me 
+- I am a Master Student at 
+- I am currently working on clustering algorithms for **subtype and stage inference** for FDG-PET images of Amyotrophic Lateral Sclerosis patients, under the supervision of [Prof. Dr. Kuangyu Shi](https://nukmed.insel.ch/de/ueber-uns/unser-team/details/person/detail/kuangyu-shi) and [PhD Jimin Hong](https://nukmed.insel.ch/de/ueber-uns/unser-team/details/person/detail/jimin-hong).
+- 
 ## Projects 
 ## Computer Vision 
 - **[Computer-Assisted Surgery Pipeline](https://github.com/tudi72/Computer_Assisted_Surgery)**

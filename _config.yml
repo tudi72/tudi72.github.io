@@ -9,11 +9,19 @@ description : "MSc. Artificial Intelligence in Medicine, University of Bern. I a
 email       : "zaharia.tudorita@yahoo.com"
 url         : "https://tudorita.github.io" # Your website URL
 baseurl     : ""
+profile_picture: "avatar.jpg"  # Profile image URL
 
 profile_header:
   background_color  : "#000000"  # Background color
-  profile   : "avatar.jpg"  # Profile image URL
 
+
+include:
+  - .htaccess
+  - _pages
+  - _includes 
+  - _files
+exclude:
+  - analytics.html 
 
 # social_links:   
 #   - name  : LinkedIn
