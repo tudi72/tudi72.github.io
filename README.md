@@ -20,6 +20,16 @@
 </div>
 
 ## Natural Language Procesing
+- **[LegalBert Text Summarization ](https://github.com/tudi72/NLP_summarization_LegalBERT)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="quantization.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>Quantized INT8  method for LegalBert inference </h4>
+    <p>Technologies used are PyTorch, Transformers,BitNet, BERT, HuggingFace, Wandb.</p>
+    <a href="https://github.com/tudi72/NLP_summarization_LegalBERT" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
 - **[Medical Corpus NLP](https://github.com/tudi72/Medical_NER)**
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="image-hih.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
