@@ -12,16 +12,16 @@ baseurl     : ""
 
 profile_header:
   background_color  : "#000000"  # Background color
-  profile_picture   : "avatar.jpg"  # Profile image URL
+  profile   : "avatar.jpg"  # Profile image URL
 
 
-social_links:   
-  - name  : LinkedIn
-    url   : "https://linkedin.com/in/tudorita-zaharia"
-    icon  : "fab fa-linkedin"  # Font Awesome class (if using icons)
-  - name  : GitHub
-    url   : "https://github.com/tudi72"
-    icon    : "fab fa-github"
+# social_links:   
+#   - name  : LinkedIn
+#     url   : "https://linkedin.com/in/tudorita-zaharia"
+#     icon  : "fab fa-linkedin"  # Font Awesome class (if using icons)
+#   - name  : GitHub
+#     url   : "https://github.com/tudi72"
+#     icon    : "fab fa-github"
 
 author:
   education       : "MSc. Artificial Intelligence, University Name"
