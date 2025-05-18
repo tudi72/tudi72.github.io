@@ -17,10 +17,14 @@ whitelist:
   - jemoji
 
 
-
-title: "Tudorita Zaharia"       # Display Name on Profile
-description: "MSc. Artificial Intelligence in Medicine, University of Bern. I am currently implementing event-based models for subtype and stage predictions for Amyotrophic Lateral Sclerosis. " # A short description of yourself
-email: zaharia.tudorita@yahoo.com
+author: 
+  name        : "Tudorita Zaharia"       # Display Name on Profile
+  avatar      : "avatar.jpg"
+  bio         : "MSc. Artificial Intelligence in Medicine, University of Bern."
+  location    : "Bern, Switzerland"
+  email       : zaharia.tudorita@yahoo.com
+  github      : "tudi72"
+  linkedin    : "https://www.linkedin.com/in/tudorita-zaharia/"
 
 url: "https://tudorita.github.io" # Your website URL
 baseurl: ""
