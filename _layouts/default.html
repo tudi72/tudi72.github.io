@@ -12,7 +12,7 @@
     <![endif]-->
     {% include head-custom.html %}
 
-    <!-- Font Awesome for icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
 
     <style>
@@ -24,16 +24,7 @@
         font-size: 1em;
       }
 
-      .social-icons-vertical {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        margin-top: 15px;
-      }
-
-      .social-icons-vertical a {
-        font-size: 1.2em;
+      .info-line a {
         text-decoration: none;
         color: inherit;
         display: flex;
@@ -41,11 +32,7 @@
         gap: 8px;
       }
 
-      .social-icons-vertical a i {
-        width: 1.2em;
-      }
-
-      .social-icons-vertical a:hover {
+      .info-line a:hover {
         opacity: 0.75;
       }
     </style>
@@ -61,27 +48,43 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- 📍 Location with black icon -->
+        <!-- 📍 Location -->
         <div class="info-line">
           <i class="fas fa-map-marker-alt" style="color: black;"></i>
           <span>{{ site.location | default: "Your City, Country" }}</span>
         </div>
 
-        <!-- 📫 Contact Icons with Labels -->
-        <div class="social-icons-vertical">
-          <a href="mailto:zaharia.tudorita@yahoo.com" title="Email">
-            <i class="fas fa-envelope" style="color: black;"></i> Email
-          </a>
-
-          <a href="{{ site.linkedin_url | default: '#' }}" target="_blank" title="LinkedIn">
-            <i class="fab fa-linkedin"></i> LinkedIn
-          </a>
-
-          <a href="{{ site.github_url | default: site.github.owner_url }}" target="_blank" title="GitHub">
-            <i class="fab fa-github" style="color: black;"></i> GitHub
+        <!-- 📫 Email -->
+        <div class="info-line">
+          <a href="mailto:your.email@example.com" title="Email">
+            <i class="fas fa-envelope" style="color: black;"></i>
+            <span>Email</span>
           </a>
         </div>
 
+        <!-- 🔗 LinkedIn -->
+        <div class="info-line">
+          <a href="{{ site.linkedin_url | default: '#' }}" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <!-- 🐙 GitHub -->
+        <div class="info-line">
+          <a href="{{ site.github_url | default: site.github.owner_url }}" target="_blank" title="GitHub">
+            <i class="fab fa-github" style="color: black;"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}
       </header>
 
       <section>
@@ -92,9 +95,4 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
-</html>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a
