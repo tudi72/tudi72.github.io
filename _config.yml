@@ -1,28 +1,6 @@
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
-
-title       : "Tudorita Zaharia"       # Display Name on Profile
-description : "MSc. Artificial Intelligence in Medicine, University of Bern." # A short description of yourself
-url         : "https://tudorita.github.io" # Your website URL
-baseurl     : ""
-logo        : "avatar.jpg"  # Profile image URL
-
-linkedin    : "https://linkedin.com/in/tudorita-zaharia"
-email       : "zaharia.tudorita@yahoo.com"
-
-google_analytics: 'G-7V9DJ74CCG'
-profile_header:
-  background_color  : "#000000"  # Background color
-
-
-include:
-  - .htaccess
-  - _pages
-  - _includes 
-  - _files
-exclude:
-  - analytics.html 
-
+title             : "Tudorita Zaharia"       # Display Name on Profile
+description       : "MSc. Artificial Intelligence in Medicine, University of Bern." # A short description of yourself
+logo              : /assets/img/avatar.jpg
+show_downloads    : true
+google_analytics  : G-7V9DJ74CCG
+theme             : jekyll-theme-minimal
