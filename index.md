@@ -1,123 +1,74 @@
 ---
 layout: default
 ---
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+## About Me 
+- I am a Master Student in Artificial Intelligence at University of Bern, under the umbrella of [CAIM](https://www.caim.unibe.ch/) and [ARTORG](https://www.artorg.unibe.ch/).  
+- I am currently working on clustering algorithms for **subtype and stage inference** for FDG-PET images of Amyotrophic Lateral Sclerosis patients, under the supervision of [Prof. Dr. Kuangyu Shi](https://nukmed.insel.ch/de/ueber-uns/unser-team/details/person/detail/kuangyu-shi) and [Postdoc. Jimin Hong](https://nukmed.insel.ch/de/ueber-uns/unser-team/details/person/detail/jimin-hong).
+- I have received a Bachelor's degree in Computer Engineering at [Technical University of Cluj-Napoca](https://www.utcluj.ro/), Romania. My dissertation was based on **Self-Supervised Learning for Heart Arrythmia Detection and Classification**, advised by prof. [Cristian Vicas](https://cs.utcluj.ro/old/educatie/csd/site/pageb2be.html?pid=253).  
+- During my bachelor, I interned at Siemens, mentored by [Irina Emilia Nicolae](https://www.linkedin.com/in/irina-emilia-nicolae/?originalSubdomain=ro), where I discovered my passion for Artificial Intelligence while working on Machine Learning methods for EKG data.
 
 
-### Definition lists can be used with HTML syntax.
+## Projects 
+- **[LegalBert Text Summarization ](https://github.com/tudi72/NLP_summarization_LegalBERT)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="assets/img/quantization.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>Quantized INT8  method for LegalBert inference </h4>
+    <p>Technologies used are PyTorch, Transformers,BitNet, BERT, HuggingFace, Wandb.</p>
+    <a href="https://github.com/tudi72/NLP_summarization_LegalBERT" target="_blank">View on GitHub</a>
+  </div>
+</div>
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+- **[Medical Corpus NLP](https://github.com/tudi72/Medical_NER)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="assets/img/image-hih.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>Named-Entity Recognition for Custom Labels </h4>
+    <p>Technologies used are Spacy, NLTK, BERT, GPT, Label-Studio, Wandb, HuggingFace.</p>
+    <a href="https://github.com/tudi72/Medical_NER" target="_blank">View on GitHub</a>
+  </div>
+</div>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+- **[Bladder Cancer Proteomics](https://github.com/tudi72/Bladder_Subpopulation_Detection)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="assets/img/image-2.png" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>Subpopulation and Feature Detection</h4>
+    <p>Given a clinical dataset with bladder cancer patients, we identify 7 subpopulations. We infer from proteomics and metadata, the most informative features.</p>
+    <a href="https://github.com/tudi72/Bladder_Subpopulation_Detection" target="_blank">View on GitHub</a>
+  </div>
+</div>
 
-```
-The final element.
-```
+- **[Computer-Assisted Surgery Pipeline](https://github.com/tudi72/Computer_Assisted_Surgery)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="assets/img/disk.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>Preoperative Planning </h4>
+    <p>We apply pivot calibration, Region-Growing segmentation with seed, Point Cloud Registration and U-NET segmentation deep learning for reference.</p>
+    <a href="https://github.com/tudi72/Computer_Assisted_Surgery" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+- **[Mini NERF](https://github.com/tudi72/2023_MINI_NERF)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="assets/img/image-heh.png" alt="Project 2" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>Bulldozer Neural Radial Field</h4>
+    <p>Based on NERF paper, we reconstruct the point cloud from views of complex scenes using 5D coordinates. </p>
+    <a href="https://github.com/tudi72/2023_MINI_NERF" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+
+- **[Mountain Car DQN](https://github.com/tudi72/RL_DQN_MountainCar)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+ <img src="assets/img/cart_mount.gif" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  
+  <div>
+    <h4>Deep Q-Learning and REINFORCE</h4>
+    <p>More description</p>
+    <a href="https://github.com/tudi72/RL_DQN_MountainCar" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+
