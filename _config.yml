@@ -13,6 +13,7 @@ logo        : "avatar.jpg"  # Profile image URL
 linkedin    : "https://linkedin.com/in/tudorita-zaharia"
 email       : "zaharia.tudorita@yahoo.com"
 
+google_analytics: 'G-7V9DJ74CCG'
 profile_header:
   background_color  : "#000000"  # Background color
 
