@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
 
     <style>
+      .info-line {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+        font-size: 1em;
+      }
+
       .social-icons-vertical {
         display: flex;
         flex-direction: column;
@@ -53,8 +61,11 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- 📍 Location -->
-        <p><strong>📍 Location:</strong> {{ site.location | default: "Your City, Country" }}</p>
+        <!-- 📍 Location with black icon -->
+        <div class="info-line">
+          <i class="fas fa-map-marker-alt" style="color: black;"></i>
+          <span>{{ site.location | default: "Your City, Country" }}</span>
+        </div>
 
         <!-- 📫 Contact Icons with Labels -->
         <div class="social-icons-vertical">
