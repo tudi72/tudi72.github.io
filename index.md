@@ -39,6 +39,15 @@ layout: default
   </div>
 </div>
 
+- **[Pancreatic Cancer K-means](https://github.com/tudi72/2024_GENOMICS_WGAS)**
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="assets/img/manhattan.png" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h4>K-Means Clustering for Pancreatic Cancer Risk Genes using R Studio and additional plots for GWAS study plots.</h4>
+    <p></p>
+    <a href="https://github.com/tudi72/2024_GENOMICS_WGAS" target="_blank">View on GitHub</a>
+  </div>
+</div>
 - **[Computer-Assisted Surgery Pipeline](https://github.com/tudi72/Computer_Assisted_Surgery)**
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="assets/img/disk.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
@@ -66,7 +75,7 @@ layout: default
   
   <div>
     <h4>Deep Q-Learning and REINFORCE</h4>
-    <p>More description</p>
+    <p>Reinforcement Learning algorithms for model-free control of cart pole in openai gym.</p>
     <a href="https://github.com/tudi72/RL_DQN_MountainCar" target="_blank">View on GitHub</a>
   </div>
 </div>
