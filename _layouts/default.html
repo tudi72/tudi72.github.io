@@ -35,6 +35,14 @@
       .info-line a:hover {
         opacity: 0.75;
       }
+      .profile-logo {
+        width: 100px;       /* Adjust size as needed */
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%; /* Makes it round */
+        margin-top: 10px;
+        border: 2px solid #ccc; /* Optional border */
+      }
     </style>
   </head>
   <body>
@@ -43,7 +51,8 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="profile-logo" />
+
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
