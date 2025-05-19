@@ -39,12 +39,12 @@ layout: default
   </div>
 </div>
 
-- **[Pancreatic Cancer K-means](https://github.com/tudi72/2024_GENOMICS_WGAS)**
+- **[Pancreatic Cancer Genomics](https://github.com/tudi72/2024_GENOMICS_WGAS)**
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="assets/img/manhattan.png" alt="Project 1" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
-    <h4>K-Means Clustering for Pancreatic Cancer Risk Genes using R Studio and additional plots for GWAS study plots.</h4>
-    <p></p>
+    <h4>K-Means Clustering</h4>
+    <p>Pancreatic Cancer Risk Genes simulated dataset using R Studio and additional plots for GWAS study plots.</p>
     <a href="https://github.com/tudi72/2024_GENOMICS_WGAS" target="_blank">View on GitHub</a>
   </div>
 </div>
