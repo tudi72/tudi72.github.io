@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
+    {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    <style>
+      .social-icons {
+        margin-top: 10px;
+      }
+      .social-icons a {
+        margin-right: 10px;
+        text-decoration: none;
+        font-size: 1.2em;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
   </head>
   <body>
     <div class="wrapper">
@@ -22,6 +33,19 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <!-- ✅ Your location -->
+        <p><strong>📍 Location:</strong> {{ site.location | default: "Your City, Country" }}</p>
+
+        <!-- ✅ Social Icons -->
+        <div class="social-icons">
+          <a href="{{ site.github_url | default: site.github.owner_url }}" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="{{ site.linkedin_url | default: '#' }}" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -39,11 +63,11 @@
         </ul>
         {% endif %}
       </header>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
