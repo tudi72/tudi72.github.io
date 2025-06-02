@@ -11,7 +11,7 @@ layout: default
 ## Projects 
 - **[Image Captioning ](https://github.com/tudi72/ImageToCaption_Encoder_Decoder)**
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="assets/img/pil_img_704.png" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
+  <img src="assets/img/pil_img_704.jpg" alt="Project 3" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h4>Encoder-Decoder architecture for generating captions </h4>
     <p>Technologies used: Dinov2, Transformers, PyTorch, Wandb.</p>
