@@ -9,7 +9,7 @@
       <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' %} class="active"{% endif %}>Blog</a>
       <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>Contact</a>
     </nav>
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -66,12 +66,11 @@
         width: 100%;
         background-color: #2c2c2c;
         padding: 0;
-        margin: 0;
+        margin: 0 0 20px 0;
         display: flex;
         justify-content: center;
         gap: 0;
-        position: sticky;
-        top: 0;
+        grid-column: 1 / -1;
         z-index: 1000;
         box-shadow: 0 2px 6px rgba(0,0,0,0.3);
       }
