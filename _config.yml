@@ -25,5 +25,9 @@ include:
   - _includes 
   - _files
 exclude:
-  - analytics.html 
+  - analytics.html
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - script/
 
