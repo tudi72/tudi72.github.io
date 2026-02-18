@@ -91,7 +91,44 @@
         background-color: #555555;
         border-bottom: 3px solid #ffffff;
       }
+
+      /* ── Math definition blocks ── */
+      .math-definition {
+        background-color: #f8f8f8;
+        border-left: 4px solid #2c2c2c;
+        padding: 16px 20px;
+        margin: 24px 0;
+        border-radius: 0 6px 6px 0;
+        font-family: 'Georgia', serif;
+      }
+      .math-definition .def-title {
+        font-family: 'Georgia', serif;
+        font-weight: bold;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        color: #2c2c2c;
+      }
+      .math-definition p {
+        font-family: 'Georgia', serif;
+        font-size: 0.97em;
+        line-height: 1.7;
+        color: #333;
+        margin: 0;
+      }
     </style>
+
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
 
@@ -110,7 +147,7 @@
         <!-- 📍 Location -->
         <div class="info-line">
           <i class="fas fa-map-marker-alt" style="color: black;"></i>
-          <span>{{ site.location | default: "Your City, Country" }}</span>
+          <span>{{ site.location | default: "Schaffhausen, Switzerland" }}</span>
         </div>
 
         <!-- 📫 Email -->
