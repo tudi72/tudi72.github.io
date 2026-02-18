@@ -3,6 +3,7 @@ layout: default
 title: "Assessing Models on Imbalanced Datasets Using Permutation Tests"
 date: 2026-02-18
 permalink: /blog/permutation-test/
+description: "How to use permutation tests to determine if your classifier has learned a real signal on imbalanced medical datasets."
 ---
 
 ## Assessing Models on Imbalanced Datasets Using Permutation Tests
