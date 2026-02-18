@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+
+        <!-- ── Top Navigation Bar ── -->
+    <nav class="top-nav">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>About</a>
+      <a href="{{ '/projects' | relative_url }}"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a>
+      <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' %} class="active"{% endif %}>Blog</a>
+      <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>Contact</a>
+    </nav>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -90,13 +99,6 @@
 
 
     <div class="wrapper">
-        <!-- ── Top Navigation Bar ── -->
-        <nav class="top-nav">
-          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>About</a>
-          <a href="{{ '/projects' | relative_url }}"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a>
-          <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' %} class="active"{% endif %}>Blog</a>
-          <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>Contact</a>
-        </nav>
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
