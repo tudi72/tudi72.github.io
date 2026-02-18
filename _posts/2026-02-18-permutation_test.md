@@ -13,11 +13,10 @@ description: "How to use permutation tests to determine if your classifier has l
 ---
 
 <p style="font-size: 0.88em; font-style: italic; color: #555; line-height: 1.7;">
-During my data science internship, I worked on a classification task in a medical dataset where positive cases 
-were severely underrepresented. Our model looked great on paper — until I realised the accuracy score was 
-mostly a reflection of the class distribution, not of anything the model had actually learned. 
-That experience led me to the permutation test: a simple but powerful way to ask whether your model 
-is genuinely doing something meaningful, or just getting lucky with the numbers.
+While working on a lab dataset, I was trying to determine whether multiple groups share the same chemical properties. 
+I tried different statistical tests, to show that my groups were equivalent based on multiple features. 
+The tests failed due to some features suffering from heteroscedasticity or being undersampled. 
+Permutation test is an assumption-free choice, more reliable on small datasets than asymptotic tests.
 </p>
 
 ---
