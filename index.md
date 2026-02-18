@@ -1,6 +1,9 @@
 ---
 layout: default
+title: About Me
+permalink: /
 ---
+
 ## About Me 
 - Aspiring ML Engineer & Data Scientist with industry experience at Johnson & Johnson in MSAT Process Modeling. 
 - Msc. in Artificial Intelligence at University of Bern, under the umbrella of [CAIM](https://www.caim.unibe.ch/) and [ARTORG](https://www.artorg.unibe.ch/).  

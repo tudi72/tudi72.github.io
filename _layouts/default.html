@@ -2,14 +2,14 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7V9DJ74CCG"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-      gtag('config', 'G-7V9DJ74CCG');
+      gtag('config', '{{ site.google_analytics }}');
     </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
 
     <style>
+      /* ── Sidebar info lines ── */
       .info-line {
         display: flex;
         align-items: center;
@@ -32,7 +33,6 @@
         margin-top: 8px;
         font-size: 1em;
       }
-
       .info-line a {
         text-decoration: none;
         color: inherit;
@@ -40,28 +40,67 @@
         align-items: center;
         gap: 8px;
       }
+      .info-line a:hover { opacity: 0.75; }
 
-      .info-line a:hover {
-        opacity: 0.75;
-      }
+      /* ── Profile image ── */
       .profile-logo {
-        width: 200px;       /* Adjust size as needed */
+        width: 200px;
         height: 200px;
         object-fit: cover;
-        border-radius: 50%; /* Makes it round */
+        border-radius: 50%;
         margin-top: 10px;
-        border: 2px solid #ccc; /* Optional border */
+        border: 2px solid #ccc;
+      }
+
+      /* ── Top navigation bar ── */
+      .top-nav {
+        width: 100%;
+        background-color: #2c2c2c;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      }
+      .top-nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.95em;
+        font-weight: bold;
+        padding: 14px 28px;
+        display: block;
+        letter-spacing: 0.04em;
+        transition: background-color 0.2s;
+      }
+      .top-nav a:hover {
+        background-color: #444444;
+      }
+      .top-nav a.active {
+        background-color: #555555;
+        border-bottom: 3px solid #ffffff;
       }
     </style>
   </head>
   <body>
+
+    <!-- ── Top Navigation Bar ── -->
+    <nav class="top-nav">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>About</a>
+      <a href="{{ '/projects' | relative_url }}"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a>
+      <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' %} class="active"{% endif %}>Blog</a>
+      <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>Contact</a>
+    </nav>
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" class="profile-logo" />
-
+          <img src="{{ site.logo | relative_url }}" alt="Logo" class="profile-logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -74,7 +113,7 @@
 
         <!-- 📫 Email -->
         <div class="info-line">
-          <a href="mailto:zaharia.tudorita@yahoo.com" title="Email">
+          <a href="mailto:{{ site.email }}" title="Email">
             <i class="fas fa-envelope" style="color: black;"></i>
             <span>Email</span>
           </a>
@@ -82,8 +121,8 @@
 
         <!-- 🔗 LinkedIn -->
         <div class="info-line">
-          <a href="{{ site.linkedin_url | default: '#' }}" target="_blank" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
+          <a href="{{ site.linkedin | default: '#' }}" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin" style="color: #0077b5;"></i>
             <span>LinkedIn</span>
           </a>
         </div>
@@ -101,3 +140,6 @@
         {{ content }}
       </section>
 
+    </div>
+  </body>
+</html>
