@@ -9,7 +9,7 @@ title       : "Tudorita Zaharia"       # Display Name on Profile
 description : "MSc. Artificial Intelligence in Medicine, University of Bern." # A short description of yourself
 url         : "https://tudorita.github.io" # Your website URL
 baseurl     : ""
-logo        : "assets/img/avatar.jpg"  # Profile image URL
+logo        : "/assets/img/avatar.jpg"  # Profile image URL
 
 linkedin    : "https://linkedin.com/in/tudorita-zaharia"
 email       : "zaharia.tudorita@yahoo.com"
