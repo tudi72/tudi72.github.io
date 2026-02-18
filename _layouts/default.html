@@ -87,20 +87,21 @@
   </head>
   <body>
 
-    <!-- ── Top Navigation Bar ── -->
-    <nav class="top-nav">
-      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>About</a>
-      <a href="{{ '/projects' | relative_url }}"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a>
-      <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' %} class="active"{% endif %}>Blog</a>
-      <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>Contact</a>
-    </nav>
+
 
     <div class="wrapper">
+        <!-- ── Top Navigation Bar ── -->
+        <nav class="top-nav">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>About</a>
+          <a href="{{ '/projects' | relative_url }}"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a>
+          <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' %} class="active"{% endif %}>Blog</a>
+          <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>Contact</a>
+        </nav>
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{ site.logo | absolute_url }}" alt="Logo" class="profile-logo" />
+          <img src="{{ site.logo | relative_url }}" alt="Logo" class="profile-logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
